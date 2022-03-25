@@ -76,6 +76,7 @@ body {
   background-color: #060014;
 
   /* background-image: url(images/image_part.png); */
+  min-height:100vh ;
 }
 .image_large {
   background-image: url(images/image_part.png);
@@ -475,12 +476,15 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
-  .FontSize1 {
-    font-size: 3.5vw;
-    color: #070500;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-  }
+.FontSize1 {
+  font-size: 3.5vw;
+ 
+  color: #d4d5d9;
+  opacity: 0.9;
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
   .FontSize1-4 {
     font-size: 3.6vw;
     color: #928975;
@@ -516,4 +520,12 @@ a {
     opacity: 0.9;
     z-index: 4;
   }
+  .FontSize1-6 {
+  font-size: 4.4vw;
+
+  color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  z-index: 5;
+}
 }

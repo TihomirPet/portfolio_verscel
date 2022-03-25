@@ -36,7 +36,8 @@ body {
   width: 100%;
   height: auto;
   background-color: #0d0225;
-}
+  background-color: #09011f;
+}  
 .name{
     height: 100vh;
 }
@@ -100,6 +101,7 @@ body {
   width: auto;
   height: 80vh !important;
    background-color: #09011f;
+   
 }
 
 .Line {

@@ -76,7 +76,7 @@ body {
   background-color: #060014;
 
   /* background-image: url(images/image_part.png); */
-  min-height:100vh ;
+  min-height: 100vh;
 }
 .image_large {
   background-image: url(images/image_part.png);
@@ -476,30 +476,32 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
-.FontSize1 {
-  font-size: 3.5vw;
- 
-  color: #d4d5d9;
-  opacity: 0.9;
- 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-}
+  .FontSize1 {
+    font-size: 3.5vw;
+
+    color: #d4d5d9;
+    opacity: 0.9;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
   .FontSize1-4 {
     font-size: 3.6vw;
     color: #928975;
   }
   .FontSize1-3Raleway {
-  font-size: 4.5vw;
+    font-size: 4.5vw;
 
-  color: #d4bea3;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  opacity: 0.9;
-}
+    color: #d4bea3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+
   .FontSize1-5 {
     font-size: 4.5vw;
-    color: #615a4b;
+
+    color: #e7d3bb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
@@ -521,11 +523,11 @@ a {
     z-index: 4;
   }
   .FontSize1-6 {
-  font-size: 4.4vw;
+    font-size: 4.4vw;
 
-  color: #e7d3bb;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  z-index: 5;
-}
+    color: #e7d3bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    z-index: 5;
+  }
 }

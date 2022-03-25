@@ -5,11 +5,10 @@ body {
   font-family: 'Raleway', sans-serif;
   /* font-family: 'East Sea Dokdo', cursive;
   font-family: 'Waiting for the Sunrise', cursive; */
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-family: 'Reenie Beanie', cursive;
   /* font-family: 'Over the Rainbow', cursive;
     font-family: 'Liu Jian Mao Cao', cursive; */
-  
 }
 
 :root {
@@ -37,9 +36,9 @@ body {
   height: auto;
   background-color: #0d0225;
   background-color: #09011f;
-}  
-.name{
-    height: 100vh;
+}
+.name {
+  height: 100vh;
 }
 .BackMobileViewPort {
   position: absolute;
@@ -48,51 +47,43 @@ body {
   /* background-image: url(images/texturH.jpg);
   background-image: url(images/crumpled-paperjpg.jpg); */
   background-image: url(images/chalk_1.png), url(images/chalk_2.jpg);
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
 
-  
   /* background-size: cover; */
   /* width: ; */
   height: 100vh;
   opacity: 0.6;
 }
-.parallax_content{
-
-
- /* background-image: url(images/chalk_33.jpg); */
+.parallax_content {
+  /* background-image: url(images/chalk_33.jpg); */
   background-repeat: no-repeat;
   background-position: center;
-    background-size: cover;
-    width: 100%;
+  background-size: cover;
+  width: 100%;
   height: 100vh;
-   z-index: -1;
-   
+  z-index: -1;
+
   background-color: #04000e;
-    /* opacity: 0.56; */
+  /* opacity: 0.56; */
 }
-.Profile{
+.Profile {
   position: relative;
- background-color: #060014;
+  background-color: #060014;
 
-   /* background-image: url(images/image_part.png); */
+  /* background-image: url(images/image_part.png); */
 }
-.image_large{
-
-
-   background-image: url(images/image_part.png);
+.image_large {
+  background-image: url(images/image_part.png);
   background-position: center;
-    background-size: cover;
-   height: 10vh;
-
-
+  background-size: cover;
+  height: 10vh;
 }
-.image_small{
-
- opacity: 0.38;
-} 
- /* .profile_inner{
+.image_small {
+  opacity: 0.38;
+}
+/* .profile_inner{
  background-color: #060014da;
 } */
 
@@ -100,17 +91,15 @@ body {
   /* background-image: url(images/paper.jpg); */
   width: auto;
   height: 80vh !important;
-   background-color: #09011f;
-     
-   
+  background-color: #09011f;
 }
-.contact_image{
+.contact_image {
   background-image: url(/images/iphone-email-nummber_2Dark.png);
-    background-position: center;
-    background-size: cover;
-   height: 60vh;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 
- opacity: 0.75;
+  opacity: 0.75;
 }
 
 .Line {
@@ -125,26 +114,23 @@ body {
   padding-left: 2vw;
 }
 
-
-
-.hover_reveal{
+.hover_reveal {
   opacity: 0;
 
   /* transform: translate(0,-20px); */
   transition: 0.6s ease-in-out;
 }
-.hover_reveal_inner{
-
-display: block;
-will-change: transform;
- overflow: hidden;
+.hover_reveal_inner {
+  display: block;
+  will-change: transform;
+  overflow: hidden;
 }
-.hovver_reveal_imgr{
+.hovver_reveal_imgr {
   opacity: 0;
 
-will-change: transform;
-  transform: scale(0.1,0.1);
-  transition: 1.5s ease-in-out   ; 
+  will-change: transform;
+  transform: scale(0.1, 0.1);
+  transition: 1.5s ease-in-out;
 }
 /* =================================================================================( Fontsize Start)====================================================================================================================== */
 .FontSize3 {
@@ -155,8 +141,8 @@ will-change: transform;
 .FontSize4 {
   font-size: 5vw;
   color: #928975;
-   color: #d4d5d9;
-     color: #d4bea3;
+  color: #d4d5d9;
+  color: #d4bea3;
   opacity: 0.9;
 }
 
@@ -165,17 +151,17 @@ will-change: transform;
   /* color: #928975;
    color: #d4d5d9;
      color: #d4bea3; */
-        color: #d4d5d9;
+  color: #d4d5d9;
   opacity: 0.9;
-    /* font-family: 'Reenie Beanie', cursive; */
+  /* font-family: 'Reenie Beanie', cursive; */
   font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .FontSize5 {
   font-size: 4.5vw;
   color: #e7d3bb;
-   /* color: #d4d5d9; */
+  /* color: #d4d5d9; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   opacity: 0.9;
@@ -185,8 +171,8 @@ will-change: transform;
 .FontSize1-5 {
   font-size: 1.5vw;
   color: #615a4b;
-    color: #d4d5d9;
-        color: #e7d3bb;
+  color: #d4d5d9;
+  color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   z-index: 5;
@@ -194,8 +180,8 @@ will-change: transform;
 .FontSize1-6 {
   font-size: 1.9vw;
   color: #615a4b;
-    color: #d4d5d9;
-        color: #e7d3bb;
+  color: #d4d5d9;
+  color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   z-index: 5;
@@ -203,8 +189,8 @@ will-change: transform;
 .FontSize1-2 {
   font-size: 1.2vw;
   color: #615a4b;
-    color: #d4d5d9;
-        color: #e7d3bb;
+  color: #d4d5d9;
+  color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   z-index: 5;
@@ -222,31 +208,25 @@ will-change: transform;
   font-size: 1.4vw;
   color: #928975;
   color: #d4d5d9;
-
 }
 
 .FontSize1-2Raleway {
   font-size: 0.8vw;
   color: #615a4b;
-    color: #d4bea3;
+  color: #d4bea3;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 0.15vw;
-
 }
 
 .FontSize1-3Raleway {
   font-size: 1.2vw;
   color: #615a4b;
-    color: #d4bea3;
+  color: #d4bea3;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   opacity: 0.9;
-
 }
-
-
-
 
 /* =================================================================================( Fontsize End)====================================================================================================================== */
 .LetterSpase04 {
@@ -284,7 +264,7 @@ will-change: transform;
 .Hover:hover {
   /* color: #070500; */
   font-weight: 700;
-     color: #d4bea3;
+  color: #d4bea3;
 }
 
 .RotationNavLinks {
@@ -302,17 +282,16 @@ will-change: transform;
   width: 100%;
   position: fixed;
   background-color: #0d02251a;
-/* opacity: 0.9; */
+  /* opacity: 0.9; */
   transition: 0.3s ease-in-out;
   z-index: 4;
 }
 
 .NavActiv {
-     transition: 0.3s ease-in-out;
-   background-color: #0d0225;
+  transition: 0.3s ease-in-out;
+  background-color: #0d0225;
   /* box-shadow: 5px -1px 12px -5px rgb(255, 254, 254); */
   z-index: 4;
-
 }
 main {
   height: 200vh;
@@ -322,10 +301,12 @@ main {
   width: 100%;
   height: auto;
 }
-a{text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
-.link_mages:hover{
-font-weight: bolder;
+.link_mages:hover {
+  font-weight: bolder;
   transition: 0.2s ease-in-out;
 }
 @media (max-width: 1399.98px) {
@@ -468,9 +449,9 @@ font-weight: bolder;
     padding-left: 2vw;
   }
   .FontSize1-2Raleway {
-    font-size: 3.3vw;
-    color: #615a4b;
-  
+    font-size: 3vw;
+
+    color: #d4bea3;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }

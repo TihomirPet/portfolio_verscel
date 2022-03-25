@@ -101,7 +101,16 @@ body {
   width: auto;
   height: 80vh !important;
    background-color: #09011f;
+     
    
+}
+.contact_image{
+  background-image: url(/images/iphone-email-nummber_2Dark.png);
+    background-position: center;
+    background-size: cover;
+   height: 60vh;
+
+ opacity: 0.75;
 }
 
 .Line {

@@ -30,6 +30,9 @@ body {
   /* border: 1px solid red; */
   z-index: 5;
 }
+.wrapper{
+  width: 100vw;
+}
 
 .HeightContent {
   width: 100%;
@@ -52,7 +55,7 @@ body {
   background-position: 50% 50%;
 
   /* background-size: cover; */
-  /* width: ; */
+  /* width:auto ; */
   height: 100vh;
   opacity: 0.6;
 }
@@ -61,7 +64,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   z-index: -1;
 
@@ -437,6 +440,23 @@ a {
         background-size: 9px 10px;
     
     } */
+
+    /* .BackMobileViewPort {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  background-image: url(images/chalk_1.png), url(images/chalk_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  background-size: cover;
+
+  height: 100vh;
+  width: auto;
+  opacity: 0.6;
+} */
   .Line {
     background-image: none;
     height: 100%;

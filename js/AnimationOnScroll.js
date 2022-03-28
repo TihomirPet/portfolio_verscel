@@ -23,7 +23,138 @@
 //     // colorStart: "white",
 //     // colorEnd: "white"
 //   })
+
 //   .setTween(tl)
 //   .addTo(controller);
 
+// const timeline = new gsap.timeline({
+//   defaults: {
+//     duration: 1,
+//     transformOrigin: 'center',
+//     ease: 'elastic',
+//   },
+// });
 
+
+
+// timeline
+//   .from('#bg-01', {
+//     x: '-=500',
+//     opacity: 0,
+//     // delay: 1,
+//     // duration: 1,
+//     // ease: 'elastic',
+//     // yoyo: true,
+//   })
+//   .from(
+//     '#bg-02',
+//     {
+//       x: '+=500',
+//       opacity: 0,
+//     },
+//     '-=1'
+//   )
+// //   .from('#bowl', {
+// //     x: -190,
+// //     opacity: 0,
+// //   })
+//   .from('#sushi-01', {
+//     duration: 0.4,
+//     opacity: 0,
+//     y: '-=100',
+//     rotation: 70,
+//     ease: Elastic.easeOut,
+//   })
+//   .from(
+//     '#sushi-02',
+//     {
+//       duration: 0.4,
+//       opacity: 0,
+//       y: '-=300',
+//       rotation: 70,
+//       ease: Bounce.easeOut,
+//     },
+//     '-=0.2'
+//   )
+//   .from(
+//     '#sushi-03',
+//     {
+//       duration: 0.4,
+//       opacity: 0,
+//       y: '-=300',
+//       rotation: 70,
+//       ease: Bounce.easeOut,
+//     },
+//     '-=0.5'
+//   )
+//   .from(
+//     '#chopstick-01',
+//     {
+//       duration: 0.4,
+//       y: -250,
+//       opacity: 0,
+//       rotation: 20,
+//     },
+//     '-=.4'
+//   )
+//   .from(
+//     '#chopstick-02',
+//     {
+//       duration: 0.4,
+//       y: -250,
+//       opacity: 0,
+//       rotation: 0,
+//     },
+//     '-=.4'
+//   )
+//   .from('.heading', {
+//     y: 200,
+//     opacity: 0,
+//   });
+
+// const controller = new ScrollMagic.Controller();
+
+// // Initialise ScrollMagic Scene
+// const scene = new ScrollMagic.Scene({
+//   triggerElement: '.sushi-animation',
+//    triggerHook: 'onLeave',
+ 
+//   duration: '100%',
+// })
+//   .setPin('.sushi-animation') // This method will pin your scene in which the animation is playing
+//   .setTween(timeline) // This method will bind our GSAP Animation with our ScrollMagic Scene
+//   .addTo(controller); // This method will add the ScrollMagic controller into our ScrollMagic scene
+
+  
+gsap.defaults({ ease: 'power3' });
+
+gsap.set('.test', { y: 100 });
+
+ScrollTrigger.batch('.test', {
+  start: 'top bottom-=300px',
+  onEnter: (batch) =>
+    gsap.to(batch, { opacity: 1, y: 0, backgroundSize: '100%', stagger: 0.15 }),
+  onLeaveBack: (batch) =>
+    gsap.to(batch, { opacity: 0, y: 100, backgroundSize: '0%', stagger: 0.1 }),
+});
+
+
+ScrollTrigger.addEventListener('refreshInit', () =>
+  gsap.set('.test', { y: 0, backgroundSize: '0%' })
+);
+
+
+// gsap.defaults({ ease: 'power3' });
+// gsap.set('.test1', { y: 100 });
+
+// ScrollTrigger.batch('.test1', {
+//   start: 'top bottom-=5000px',
+//   onEnter: (batch) =>
+//     gsap.to(batch, { opacity: 1, y: 0, backgroundSize: '100%', stagger: 0.15 }),
+//   onLeaveBack: (batch) =>
+//     gsap.to(batch, { opacity: 0, y: 100, backgroundSize: '0%', stagger: 0.1 }),
+// });
+
+// ScrollTrigger.addEventListener('refreshInit', () =>
+//   gsap.set('.test1', { y: 0, backgroundSize: '0%' })
+// );

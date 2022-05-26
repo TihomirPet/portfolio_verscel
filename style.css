@@ -59,7 +59,7 @@ body {
   height: 100vh;
   opacity: 0.6;
 }
-#bg-01{
+#bg-01 {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .parallax_content {
@@ -210,6 +210,29 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
+.FontSizeMission {
+  font-size: 1vw;
+  color: #070500;
+  /* color: #d4d5d9; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.FontSizeWorkflowTitle {
+  font-size: 1.7vw;
+  color: #070500;
+  color: #d4d5d9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.4vw;
+}
+.FontSizeWorkflowUptodate{
+  font-size: 1.3vw;
+  color: #070500;
+  color: #d4d5d9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.4vw;
+}
 
 .FontSize1-4 {
   font-size: 1.4vw;
@@ -323,19 +346,93 @@ a {
   background-color: #09011f;
 }
 .colWorkflowFirst {
-  height: 58vh;
- 
+  height: 60vh;
+}
+.colAstronaut {
+  background-image: url(images/astronaut-g06196fa59_1920.jpg);
+  height: 50vh !important;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+  /* z-index: 5; */
+}
+.Workflow_Preparation {
+  height: 8.3vh;
+  background-color: #fdac0f;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.Workflow_Title {
+  background-image: url(images/Ideas_2.jpg);
+  height: 8.1vh;
+  width: 100%;
+  /* background-position:50vh  ; */
+  background-position: center 20% ;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* border: 1px solid red; */
+  color: #d4d5d9;
+  font-size: 1.8vw;
+}
+.Workflow_Baby {
+  background-image: url(images/Start.jpg);
+  height: 50vh;
+  width: 100%;
+  /* background-position:50vh  ; */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+  
+}
+.Workflow_Computer{
+  background-image: url(images/bert.jpg);
+  height: 60vh;
+  width: 100%;
+  /* background-position:50vh  ; */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d4d5d9;
+  font-size: 1.4vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 500;
+  
+
+}
+.Workflow_ComputerNew{
+
+  background-image: url(images/bulletin_dark.jpg);
+  height: 40vh;
+  /* width: 100%; */
+  /* background-position:50vh  ; */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d4d5d9;
+  font-size: 1.4vw;
+    /* font-family: 'Montserrat', sans-serif; */
+    letter-spacing: 0.2vw;
+    font-weight: 500;
+  
+
+
+
 }
 .colWorkflowFirst_3 {
-  height: 58vh;
-    width: 23.2%;
+  width: 23.2%;
 }
+
 .colWorkflowTwo_1 {
-  height: 40vh ;
+  height: 40vh;
   /* width: 35vw; */
 }
 .colWorkflowTwo_2 {
-  height: 40vh ;
+  height: 40vh;
   width: 61%;
 }
 
@@ -425,19 +522,19 @@ a {
 /* =================================================================================( 576px)====================================================================================================================== */
 @media (max-width: 576px) {
   .wrapper {
-  width: 100vw;
-}
+    width: 100vw;
+  }
   .box2 {
     width: 100% !important;
   }
   .contact_image {
-  background-image: url(/images/iphone-email-nummber_2Dark.png);
-  background-position: center;
-  background-size: cover;
-  height: 28vh;
+    background-image: url(/images/iphone-email-nummber_2Dark.png);
+    background-position: center;
+    background-size: cover;
+    height: 28vh;
 
-  opacity: 0.75;
-}
+    opacity: 0.75;
+  }
   .Error {
     background-image: url(images/Error.png);
     height: 22vh;
@@ -454,7 +551,7 @@ a {
     height: auto;
     z-index: -5;
   }
-  
+
   .Line {
     background-image: none;
     height: 100%;

@@ -316,6 +316,29 @@ a {
   font-weight: bolder;
   transition: 0.2s ease-in-out;
 }
+.Workflow {
+  width: 100%;
+  height: auto;
+  background-color: #0d0225;
+  background-color: #09011f;
+}
+.colWorkflowFirst {
+  height: 58vh;
+ 
+}
+.colWorkflowFirst_3 {
+  height: 58vh;
+    width: 23.2%;
+}
+.colWorkflowTwo_1 {
+  height: 40vh ;
+  /* width: 35vw; */
+}
+.colWorkflowTwo_2 {
+  height: 40vh ;
+  width: 61%;
+}
+
 @media (max-width: 1399.98px) {
 }
 /* =================================================================================(1200px)====================================================================================================================== */

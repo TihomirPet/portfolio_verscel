@@ -224,7 +224,7 @@ body {
   color: #d4d5d9;
     color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.4vw;
 }
 .FontSizeWorkflowUptodate{
@@ -349,9 +349,9 @@ a {
    background-color: #060014;
   /* background-color: #09011f; */
 }
-.colWorkflowFirst {
+/* .colWorkflowFirst {
   height: 60vh;
-}
+} */
 .colAstronaut {
   background-image: url(images/astronaut-g06196fa59_1920.jpg);
   height: 50vh !important;
@@ -380,6 +380,7 @@ a {
   /* border: 1px solid red; */
   color: #d4d5d9;
   font-size: 1.8vw;
+ 
 }
 .Workflow_Baby {
   background-image: url(images/Start.jpg);
@@ -395,7 +396,7 @@ a {
 .Workflow_Computer{
   background-image: url(images/bert.jpg);
   height: 60vh;
-  width: 100%;
+
   /* background-position:50vh  ; */
   background-position: right;
   background-repeat: no-repeat;
@@ -444,7 +445,7 @@ a {
 
 }
 .colWorkflowFirst_3 {
-  width: 23.2%;
+  width: 23.2% !important;
 }
 
 .colWorkflowTwo_1 {
@@ -644,4 +645,56 @@ a {
     font-weight: 400;
     z-index: 5;
   }
+
+.FontSizeWorkflowUptodate{
+  font-size: 4.2vw;
+  color: #070500;
+  color: #ffffff;
+    color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+}
+.Workflow-Music{
+
+
+  font-size: 5vw;
+  
+
+}
+.Workflow_ComputerNew{
+
+
+  font-size: 5vw;
+ 
+  
+
+
+
+}
+
+.Workflow_Computer{
+
+  font-size: 5vw;
+
+  
+
+}
+.Workflow_Preparation {
+
+  font-size: 5vw;
+
+}
+.FontSizeMission {
+  font-size: 4vw;
+
+}
+.FontSizeWorkflowTitle {
+  font-size: 4vw;
+ 
+}
+.Workflow_Title {
+
+  font-size: 5vw;
+}
 }

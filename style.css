@@ -21,15 +21,25 @@ body {
 .Viewport_Contact {
   background-image: url(images/Contact.jpg);
   height: 65vh;
-  width: 23%;
+  width: 22% !important ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.Viewport_Contact_Mobile {
+  background-image: url(images/Contact.jpg);
+  height: 65vh;
+  width: 22% !important ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: none !important;
+}
 .Viewport_Contact:hover {
   background-image: url(images/ContactHover.jpg);
   height: 65vh;
-  width: 23%;
+  width: 22%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,6 +52,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.Viewport_Profile_Mobile {
+  background-image: url(images/Profile.jpg);
+  height: 96vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none !important;
 }
 .Viewport_Profile:hover {
   background-image: url(images/ProfileHover.jpg);
@@ -89,7 +107,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition-duration: 00.7s;
-  color: #001C1A;
+  color: #001c1a;
 }
 .Vieport_Shape {
   background-image: url(images/ShapeBlue.jpg);
@@ -121,8 +139,8 @@ body {
 .HeightContent {
   width: 100%;
   height: auto;
-  background-color: #0d0225;
-  background-color: #09011f;
+
+  background-color: #060014;
 }
 .name {
   height: 100vh;
@@ -179,18 +197,18 @@ body {
 } */
 
 .Contact {
-  /* background-image: url(images/paper.jpg); */
   width: auto;
-  height: 80vh !important;
-  background-color: #09011f;
+  height: 100vh !important;
+
+  background-color: #060014;
 }
 .contact_image {
-  background-image: url(/images/iphone-email-nummber_2Dark.png);
+  background-image: url(/images/Post.png);
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 53vh;
+font-size: 2.4vw;
 
-  opacity: 0.75;
 }
 
 .Line {
@@ -491,7 +509,7 @@ a {
   font-weight: 400;
 }
 .Workflow_Title {
-  background-image: url(images/Ideas_2.jpg);
+  /* background-image: url(images/Ideas_2.jpg); */
   height: 8.1vh;
   width: 100%;
   /* background-position:50vh  ; */
@@ -568,9 +586,25 @@ a {
 }
 
 @media (max-width: 1399.98px) {
+  .Viewport_Contact {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: 22% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 /* =================================================================================(1200px)====================================================================================================================== */
 @media (max-width: 1200px) {
+  .Viewport_Contact {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: 21% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .RotationNavLinks {
     transform: rotate(-90deg);
     width: 13vw;
@@ -618,6 +652,14 @@ a {
   }
 }
 /* =================================================================================( 768px)====================================================================================================================== */
+.Viewport_Contact {
+  background-image: url(images/Contact.jpg);
+  height: 65vh;
+  width: 22.1% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 @media (max-width: 768px) {
   .box2 {
     width: 58% !important;
@@ -630,7 +672,7 @@ a {
   }
   .FontSize1 {
     font-size: 1.5vw;
-    color: #070500;
+    color: #fdfdfd;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
   }
@@ -652,20 +694,125 @@ a {
 }
 /* =================================================================================( 576px)====================================================================================================================== */
 @media (max-width: 576px) {
+  .Profile {
+  position: relative;
+  background-color: #060014;
+
+  /* background-image: url(images/image_part.png); */
+  min-height: 70vh;
+}
+  .FontVieportWorkflow {
+    font-size: 4.6vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3vw;
+  }
+  .FontVieportProject {
+    font-size: 4.6vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5vw;
+  }
+  .FontVieportTitle {
+    font-size: 5vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8vw;
+  }
+  .Vieport_Workflow {
+    background-image: url(images/Car.jpg);
+    height: 15vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Viewport_Projects {
+    background-image: url(images/ShapeB.jpg);
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Viewport_Profile {
+    background-image: url(images/Profile.jpg);
+    height: 13vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none !important;
+  }
+  .Viewport_Profile_Mobile {
+    background-image: url(images/Profile.jpg);
+    height: 13vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block !important;
+  }
+  .FontVieportPrfile {
+    font-size: 4.6vw;
+    color: #070500;
+    color: #d4d5d9;
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5vw;
+  }
+  .Viewport_Contact {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: 50% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none !important;
+  }
+  .Viewport_Contact_Mobile {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: block !important;
+  }
   .wrapper {
     width: 100vw;
   }
   .box2 {
     width: 100% !important;
   }
-  .contact_image {
+  /* .contact_image {
     background-image: url(/images/iphone-email-nummber_2Dark.png);
     background-position: center;
     background-size: cover;
     height: 28vh;
 
     opacity: 0.75;
-  }
+  } */
+
+  .Contact {
+  width: auto;
+  height: 50vh !important;
+
+  background-color: #060014;
+}
+  .contact_image {
+  background-image: url(/images/Post.png);
+  background-position: center;
+  background-size: cover;
+  height: 33vh;
+  width:100% ;
+font-size: 5.7vw;
+
+}
   .Error {
     background-image: url(images/Error.png);
     height: 22vh;

@@ -15,6 +15,38 @@ body {
   --black: #0c0c0c;
 }
 
+.Viewport {
+  background-color: #060012;
+}
+.Viewport_Contact {
+  background-image: url(images/Contact.jpg);
+  height: 65vh;
+  width: 23%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Viewport_Profile {
+  background-image: url(images/Profile.jpg);
+  height: 96vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Viewport_Projects{
+    background-image: url(images/alice.jpg);
+  height: 15vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Vieport_Title{
+     background-image: url(images/edward-bowden-OPTmTpuZO2o-unsplash.jpg);
+  height: 15vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .TextProfil {
   margin-top: 0px !important;
   margin-bottom: 0px;
@@ -222,16 +254,16 @@ body {
   font-size: 1.9vw;
   color: #070500;
   color: #d4d5d9;
-    color: #e7d3bb;
+  color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   letter-spacing: 0.4vw;
 }
-.FontSizeWorkflowUptodate{
+.FontSizeWorkflowUptodate {
   font-size: 1.3vw;
   color: #070500;
   color: #ffffff;
-    color: #e7d3bb;
+  color: #e7d3bb;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 0.4vw;
@@ -346,7 +378,7 @@ a {
   width: 100%;
   height: auto;
   background-color: #0d0225;
-   background-color: #060014;
+  background-color: #060014;
   /* background-color: #09011f; */
 }
 /* .colWorkflowFirst {
@@ -374,13 +406,12 @@ a {
   height: 8.1vh;
   width: 100%;
   /* background-position:50vh  ; */
-  background-position: center 20% ;
+  background-position: center 20%;
   background-repeat: no-repeat;
   background-size: auto;
   /* border: 1px solid red; */
   color: #d4d5d9;
   font-size: 1.8vw;
- 
 }
 .Workflow_Baby {
   background-image: url(images/Start.jpg);
@@ -391,9 +422,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   /* border: 1px solid red; */
-  
 }
-.Workflow_Computer{
+.Workflow_Computer {
   background-image: url(images/bert.jpg);
   height: 60vh;
 
@@ -403,14 +433,11 @@ a {
   background-size: cover;
   color: #ffffff;
   font-size: 1.4vw;
-    /* font-family: 'Montserrat', sans-serif; */
-    letter-spacing: 0.2vw;
-    font-weight: 500;
-  
-
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
 }
-.Workflow_ComputerNew{
-
+.Workflow_ComputerNew {
   background-image: url(images/bulletin_dark.jpg);
   height: 40vh;
   /* width: 100%; */
@@ -420,16 +447,11 @@ a {
   background-size: cover;
   color: #ffffff;
   font-size: 1.4vw;
-    /* font-family: 'Montserrat', sans-serif; */
-    letter-spacing: 0.2vw;
-    font-weight: 500;
-  
-
-
-
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
 }
-.Workflow-Music{
-
+.Workflow-Music {
   background-image: url(images/Music_3.jpg);
   height: 40vh;
   /* width: 100%; */
@@ -439,10 +461,9 @@ a {
   background-size: cover;
   color: #ffffff;
   font-size: 1.5vw;
-    /* font-family: 'Montserrat', sans-serif; */
-    letter-spacing: 0.2vw;
-    font-weight: 500;
-
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
 }
 .colWorkflowFirst_3 {
   width: 23.2% !important;
@@ -646,55 +667,35 @@ a {
     z-index: 5;
   }
 
-.FontSizeWorkflowUptodate{
-  font-size: 4.2vw;
-  color: #070500;
-  color: #ffffff;
+  .FontSizeWorkflowUptodate {
+    font-size: 4.2vw;
+    color: #070500;
+    color: #ffffff;
     color: #e7d3bb;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.4vw;
-}
-.Workflow-Music{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4vw;
+  }
+  .Workflow-Music {
+    font-size: 5vw;
+  }
+  .Workflow_ComputerNew {
+    font-size: 5vw;
+  }
 
-
-  font-size: 5vw;
-  
-
-}
-.Workflow_ComputerNew{
-
-
-  font-size: 5vw;
- 
-  
-
-
-
-}
-
-.Workflow_Computer{
-
-  font-size: 5vw;
-
-  
-
-}
-.Workflow_Preparation {
-
-  font-size: 5vw;
-
-}
-.FontSizeMission {
-  font-size: 4vw;
-
-}
-.FontSizeWorkflowTitle {
-  font-size: 4vw;
- 
-}
-.Workflow_Title {
-
-  font-size: 5vw;
-}
+  .Workflow_Computer {
+    font-size: 5vw;
+  }
+  .Workflow_Preparation {
+    font-size: 5vw;
+  }
+  .FontSizeMission {
+    font-size: 4vw;
+  }
+  .FontSizeWorkflowTitle {
+    font-size: 4vw;
+  }
+  .Workflow_Title {
+    font-size: 5vw;
+  }
 }

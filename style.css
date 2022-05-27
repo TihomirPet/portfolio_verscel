@@ -26,6 +26,16 @@ body {
   background-position: center;
   background-size: cover;
 }
+.Viewport_Contact:hover {
+  background-image: url(images/ContactHover.jpg);
+  height: 65vh;
+  width: 23%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 00.7s;
+  color: beige;
+}
 .Viewport_Profile {
   background-image: url(images/Profile.jpg);
   height: 96vh;
@@ -33,20 +43,62 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.Viewport_Projects{
-    background-image: url(images/alice.jpg);
-  height: 15vh;
+.Viewport_Profile:hover {
+  background-image: url(images/ProfileHover.jpg);
+  height: 96vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 00.7s;
+
+  color: #001515;
+}
+.Viewport_Projects {
+  background-image: url(images/ShapeB.jpg);
+  height: 20vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.Vieport_Title{
-     background-image: url(images/edward-bowden-OPTmTpuZO2o-unsplash.jpg);
+.Viewport_Projects:hover {
+  background-image: url(images/ShapeBHover.jpg);
+  height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #240900;
+}
+.Vieport_Title {
+  background-image: url(images/edward-bowden-OPTmTpuZO2o-unsplash.jpg);
   height: 15vh;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.Vieport_Workflow {
+  background-image: url(images/Car.jpg);
+  height: 25vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Vieport_Workflow:hover {
+  background-image: url(images/CarHover.jpg);
+  height: 25vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 00.7s;
+  color: #001C1A;
+}
+.Vieport_Shape {
+  background-image: url(images/ShapeBlue.jpg);
+  height: 23vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .TextProfil {
   margin-top: 0px !important;
   margin-bottom: 0px;
@@ -250,6 +302,42 @@ body {
   font-weight: 700;
   letter-spacing: 0.1vw;
 }
+.FontVieportPrfile {
+  font-size: 3.5vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5vw;
+}
+.FontVieportProject {
+  font-size: 1.5vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5vw;
+}
+.FontVieportTitle {
+  font-size: 1.8vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.8vw;
+}
+.FontVieportWorkflow {
+  font-size: 1.2vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3vw;
+}
 .FontSizeWorkflowTitle {
   font-size: 1.9vw;
   color: #070500;
@@ -259,6 +347,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.4vw;
 }
+
 .FontSizeWorkflowUptodate {
   font-size: 1.3vw;
   color: #070500;

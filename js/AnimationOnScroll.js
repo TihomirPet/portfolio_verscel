@@ -1,3 +1,5 @@
+
+
 // TweenLite.defaultEase = Linear.easeNone;
 // var controller = new ScrollMagic.Controller();
 // var tl = new TimelineMax();
@@ -34,8 +36,6 @@
 //     ease: 'elastic',
 //   },
 // });
-
-
 
 // timeline
 //   .from('#bg-01', {
@@ -118,31 +118,61 @@
 // const scene = new ScrollMagic.Scene({
 //   triggerElement: '.sushi-animation',
 //    triggerHook: 'onLeave',
- 
+
 //   duration: '100%',
 // })
 //   .setPin('.sushi-animation') // This method will pin your scene in which the animation is playing
 //   .setTween(timeline) // This method will bind our GSAP Animation with our ScrollMagic Scene
 //   .addTo(controller); // This method will add the ScrollMagic controller into our ScrollMagic scene
 
-  
+
+// ====================================================================================
+// let st = ScrollTrigger.create({
+//   trigger: '.test',
+//   start: 'top top',
+//   endTrigger: '.wrapper',
+//   end: 'bottom 50%+=100px',
+//   start: 'top',
+//   pin: true,
+//   markers: true,
+// });
+
+// =======================================================================================
+// gsap.registerPlugin(ScrollTrigger);
+
+// gsap.to('.testB', {
+//   scrollTrigger: {
+//     trigger: '.testA',
+//     markers: true,
+//     start: 'top top',
+//     end: '+=500',
+//     pin: '.testA',
+//     scrub: 2,
+//     toggleActionsRestart: 'restart nono none none',
+//   },
+//   opacity: 1,
+ 
+// });
+
+// ===========================================================================================
+
 gsap.defaults({ ease: 'power3' });
 
 gsap.set('.test', { y: 100 });
 
 ScrollTrigger.batch('.test', {
-  start: 'top bottom-=300px',
+
+  start: 'top 200px',
+  end: 'bottom end',
   onEnter: (batch) =>
     gsap.to(batch, { opacity: 1, y: 0, backgroundSize: '100%', stagger: 0.15 }),
   onLeaveBack: (batch) =>
-    gsap.to(batch, { opacity: 0, y: 100, backgroundSize: '0%', stagger: 0.1 }),
+    gsap.to(batch, { opacity: 0, y: 10, backgroundSize: '0%', stagger: 0.15 }),
 });
-
 
 ScrollTrigger.addEventListener('refreshInit', () =>
   gsap.set('.test', { y: 0, backgroundSize: '0%' })
 );
-
 
 // gsap.defaults({ ease: 'power3' });
 // gsap.set('.test1', { y: 100 });

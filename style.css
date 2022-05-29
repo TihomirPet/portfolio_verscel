@@ -12,32 +12,35 @@ body {
 
   font-family: 'Montserrat', sans-serif;
   font-family: 'Reenie Beanie', cursive;
-
-
+  overscroll-behavior: none;
+	overflow-x: hidden;
+    height: 100vh !important;
 }
 
 
 :root {
   --black: #0c0c0c;
 }
-/* .Profile3{
+.Profile3{
   background-color: #060012;
 height: 100vh;
 
 }
-.testA{
-  width: 20vw;
-  height: 20vh;
-  color: #e7d3bb;
+.containerA {
+	width: 600%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+  border: #0d0225 solid 2px;
+
+	}
+.panel{
+		width: 100%;
+		height: 100vh;
+color: #070500;
+  border: solid red 1px;
 }
-.testB{
 
-
-  width: 20vw;
-  height: 20vh;
-    color: #e7d3bb;
-   
-} */
 
 .Viewport {
   background-color: #060012;
@@ -135,11 +138,11 @@ height: 100vh;
   color: #001c1a;
 }
 .Vieport_Shape {
-  background-image: url(images/ShapeBlue.jpg);
+  /* background-image: url(images/ShapeBlue.jpg); */
   height: 23vh;
-  background-position: top;
+  /* background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .TextProfil {

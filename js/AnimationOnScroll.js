@@ -138,7 +138,7 @@
 // });
 
 // =======================================================================================
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 // gsap.to('.testB', {
 //   scrollTrigger: {
@@ -188,3 +188,5 @@ ScrollTrigger.addEventListener('refreshInit', () =>
 // ScrollTrigger.addEventListener('refreshInit', () =>
 //   gsap.set('.test1', { y: 0, backgroundSize: '0%' })
 // );
+
+

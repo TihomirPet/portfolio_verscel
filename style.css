@@ -74,8 +74,9 @@ body {
 
 .Viewport {
   background-color: #060012;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
+  width: 100vw;
 }
 .Viewport_Contact {
   background-image: url(images/Contact.jpg);
@@ -196,7 +197,7 @@ body {
 }
 
 .HeightContent {
-  width: 100%;
+  width: 100vw;
   height: auto;
 
   background-color: #060014;
@@ -249,12 +250,7 @@ body {
 
   background-position: -121vw -219.9vh;
 }
-.Profile3 {
-  background-color: #060012;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 .Profile_Image {
   background-image: url(images/Portrait_Pu.png);
   background-size: contain;
@@ -273,8 +269,9 @@ body {
     rgba(168, 124, 68, 0.8),
     rgba(168, 124, 68, 1)
   );
-
+overflow: hidden;
   height: 109.6vh;
+  width: 100vw;
 }
 .Profile_Image_Down {
   background-image: url(images/Portrait_Pu_D.png);
@@ -296,16 +293,8 @@ body {
   background-position: center;
   background-size: cover;
   height: 110vh;
-
-  /* background-color: #35355c; */
-  /* background-color: #02053B;  */
 }
 .Profile_Form {
-  /* background-image: url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100vh; */
-
   opacity: 0.3;
 }
 .image_large {
@@ -317,18 +306,17 @@ body {
 .image_small {
   opacity: 0.38;
 }
-/* .profile_inner{
- background-color: #060014da;
-} */
+
 .Projekt_Title {
   background-color: #332357;
+
 }
 .Projekt_Process {
   height: 15vh;
   background-color: rgba(124, 124, 141, 1);
 }
 .Contact {
-  width: auto;
+  width: 100vw;
   height: 100vh !important;
 
   background-image: linear-gradient(
@@ -338,19 +326,26 @@ body {
     ),
     url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
   background-size: 78vw auto;
+  color:#2F1D56;
 }
 .contact_image {
   height: 53vh;
-  background-color: rgb(248, 248, 248, 0.6);
+  /* background-color: rgb(248, 248, 248, 0.1); */
+  background-image: url(images/back_contact.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  
 }
 .contact_image a {
-  color: #332357;
+  color:#2F1D56;
 }
 .contact_image a:hover {
-  color: #fb7304;
+    font-weight: 400;
+  color: #803b03;
 }
 
 .Line {
@@ -573,18 +568,13 @@ body {
 #stage {
   height: 100vh;
   width: 100%;
-  /* background: #262626; */
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .PlaceHolder {
-  background-image: url(images/paper.jpg);
-  width: auto;
-  height: auto;
-  height: 20px;
-} */
+
 
 .box {
   height: auto;
@@ -632,7 +622,7 @@ main {
 }
 
 .slide {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 a {
@@ -740,7 +730,7 @@ a {
   height: 40vh;
   width: 61%;
 }
-
+/* =================================================================================(1399px)====================================================================================================================== */
 @media (max-width: 1399.98px) {
   .Viewport_Contact {
     background-image: url(images/Contact.jpg);
@@ -753,6 +743,29 @@ a {
 }
 /* =================================================================================(1200px)====================================================================================================================== */
 @media (max-width: 1200px) {
+  .Viewport_Form {
+    background-image: url(images/hugol_hell_2.jpg);
+    background-size: 94vw auto;
+    background-position: -3vw -27vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.Profile_Image {
+    background-image: url(images/Portrait_Pu.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 44vh;
+    opacity: 0.8;
+}
+.Profile_Image_Down {
+    background-image: url(images/Portrait_Pu_D.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 44vh;
+    opacity: 0.8;
+}
   .Viewport_Contact {
     background-image: url(images/Contact.jpg);
     height: 65vh;
@@ -774,7 +787,7 @@ a {
   }
   .FontSize1 {
     font-size: 1.3vw;
-    color: #070500;
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
   }
@@ -783,9 +796,36 @@ a {
     color: #928975;
   }
 }
-/* @media (max-width: 1141px) {} */
+/* =================================================================================( 1440px)====================================================================================================================== */
+@media (max-width: 1441px) {  
+  .Viewport_Form {
+    background-image: url(images/hugol_hell_2.jpg);
+    background-size: 78vw auto;
+    background-position: -3vw -27vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+  .Profile_Image {
+    background-image: url(images/Portrait_Pu.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 42vh;
+    opacity: 0.8;
+    
+}
+.Profile_Image_Down {
+    background-image: url(images/Portrait_Pu_D.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 42vh;
+    opacity: 0.8;
+}
+}
 /* =================================================================================( 992px)====================================================================================================================== */
 @media (max-width: 992px) {
+
   .Error {
     background-image: url(images/Error.png);
     height: 29vh;
@@ -807,7 +847,7 @@ a {
     color: #928975;
   }
 }
-/* =================================================================================( 768px)====================================================================================================================== */
+
 .Viewport_Contact {
   background-image: url(images/Contact.jpg);
   height: 65vh;
@@ -816,7 +856,84 @@ a {
   background-position: center;
   background-size: cover;
 }
+/* =================================================================================( 768px)====================================================================================================================== */
 @media (max-width: 768px) {
+
+
+  .Profile_Hugo {
+    background-image: linear-gradient(
+        rgba(124, 124, 141, 0.5),
+        rgba(124, 124, 141, 1)
+      ),
+      url(images/hugol_hell_2.jpg);
+    background-size: 78vw auto;
+
+background-position: -121vw -199.9vh;
+  }
+  .Profile_Text {
+    background-image: linear-gradient(
+        rgba(51, 35, 87, 0.99),
+        rgba(51, 35, 87, 0.9)
+      ),
+      url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .Profile_Image {
+    background-image: url(images/Portrait_Pu.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40vh;
+
+    opacity: 0.8;
+  }
+  .Profile_Image_Down {
+    background-image: url(images/Portrait_Pu_D.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40vh;
+
+    opacity: 0.8;
+  }
+  .Profile {
+    position: relative;
+  
+    background: linear-gradient(
+      0deg,
+      rgba(124, 124, 141, 1),
+      rgba(168, 124, 68, 0.8),
+      rgba(168, 124, 68, 1)
+    );
+
+    height: 100vh;
+  }
+  .contact_image {
+    height: 73vh;
+   
+    background-image: url(images/back_contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.contact_image a {
+  color: #332357;
+}
+.contact_image h2 {
+
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
   .box2 {
     width: 58% !important;
   }
@@ -834,7 +951,7 @@ a {
   }
   .FontSize1-5 {
     font-size: 2.2vw;
-    color: #615a4b;
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
   }
@@ -850,13 +967,71 @@ a {
 }
 /* =================================================================================( 576px)====================================================================================================================== */
 @media (max-width: 576px) {
+  .Projekt_Title {
+    background-color:   rgba(124, 124, 141, 1) ;
+}
+  .Profile_Text {
+    background-image: linear-gradient( rgba(51, 35, 87, 0.99), rgba(51, 35, 87, 0.9) ), url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 52vh;
+}
+  .Profile_Image {
+    background-image: url(images/Portrait_Pu_m.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    opacity: 0.8;
+}
+.Profile_Image_Down {
+    background-image: url(images/Portrait_Pu_m_D.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    opacity: 0.8;
+}
   .Profile {
     position: relative;
-    background-color: #060014;
 
-    /* background-image: url(images/image_part.png); */
-    min-height: 70vh;
+    background: linear-gradient(
+      180deg,
+      /* rgba(124, 124, 141, 1), */
+      /* rgba(168, 124, 68, 0.8), */
+      rgba(168, 124, 68, 1)
+     
+    );
+width: 100vw;
+    height: auto;
   }
+.Viewport_Code {
+    background-image: url(images/barcode.png);
+    background-size: cover;
+  background-position: 0vw 2vh;
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 22vw;
+    opacity: 0.5;
+}
+.Viewport_Border {
+    border-bottom: 1px solid #fffaf3;
+}
+
+  .Viewport_Form {
+    background-image: url(images/hugol_hell_2.jpg);
+    background-size: 212vw auto;
+    background-position: -3vw -29vh;
+    background-repeat: no-repeat;
+    height: 54vh;
+}
+  .FontSize1 {
+    font-size: 1vw;
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
   .FontVieportWorkflow {
     font-size: 4.6vw;
 
@@ -939,20 +1114,21 @@ a {
 
     display: block !important;
   }
+  .Viewport_Image {
+    background-image: url(images/jason.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    opacity: 0.7;
+}
   .wrapper {
     width: 100vw;
   }
   .box2 {
     width: 100% !important;
   }
-  /* .contact_image {
-    background-image: url(/images/iphone-email-nummber_2Dark.png);
-    background-position: center;
-    background-size: cover;
-    height: 28vh;
 
-    opacity: 0.75;
-  } */
 
   .Contact {
     width: auto;
@@ -961,13 +1137,19 @@ a {
     background-color: #060014;
   }
   .contact_image {
-    background-image: url(/images/Post.png);
-    background-position: center;
-    background-size: cover;
-    height: 33vh;
-    width: 100%;
-    font-size: 5.7vw;
-  }
+  height: 30vh;
+  background-color: rgb(248, 248, 248, 0);
+  font-size: 3.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+  .contact_image h2 {
+
+  font-size: 4.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
   .Error {
     background-image: url(images/Error.png);
     height: 22vh;
@@ -1049,14 +1231,20 @@ a {
     opacity: 0.9;
     z-index: 4;
   }
-  .FontSize1-6 {
-    font-size: 4.4vw;
-
+.FontSize1-6 {
+    font-size: 5.4vw;
     color: #e7d3bb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     z-index: 5;
-  }
+}
+.FontSize1-7 {
+    font-size: 4.5vw;
+    color: #e7d3bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    z-index: 5;
+}
 
   .FontSizeWorkflowUptodate {
     font-size: 4.2vw;

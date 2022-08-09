@@ -993,16 +993,7 @@ background-position: -121vw -199.9vh;
     opacity: 0.8;
 }
   .Profile {
-    position: relative;
-
-    background: linear-gradient(
-      180deg,
-      /* rgba(124, 124, 141, 1), */
-      /* rgba(168, 124, 68, 0.8), */
-      rgba(168, 124, 68, 1)
-     
-    );
-width: 100vw;
+  
     height: auto;
   }
 .Viewport_Code {
@@ -1095,25 +1086,8 @@ width: 100vw;
     font-weight: 500;
     letter-spacing: 0.5vw;
   }
-  .Viewport_Contact {
-    background-image: url(images/Contact.jpg);
-    height: 65vh;
-    width: 50% !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: none !important;
-  }
-  .Viewport_Contact_Mobile {
-    background-image: url(images/Contact.jpg);
-    height: 65vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    display: block !important;
-  }
+  
+ 
   .Viewport_Image {
     background-image: url(images/jason.png);
     background-size: cover;
@@ -1255,26 +1229,5 @@ width: 100vw;
     font-weight: 700;
     letter-spacing: 0.4vw;
   }
-  .Workflow-Music {
-    font-size: 5vw;
-  }
-  .Workflow_ComputerNew {
-    font-size: 5vw;
-  }
-
-  .Workflow_Computer {
-    font-size: 5vw;
-  }
-  .Workflow_Preparation {
-    font-size: 5vw;
-  }
-  .FontSizeMission {
-    font-size: 4vw;
-  }
-  .FontSizeWorkflowTitle {
-    font-size: 4vw;
-  }
-  .Workflow_Title {
-    font-size: 5vw;
-  }
+  
 }

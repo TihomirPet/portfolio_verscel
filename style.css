@@ -241,14 +241,9 @@ body {
   /* opacity: 0.56; */
 }
 .Profile_Hugo {
-  background-image: linear-gradient(
-      rgba(124, 124, 141, 0.5),
-      rgba(124, 124, 141, 1)
-    ),
-    url(images/hugol_hell_2.jpg);
-  background-size: 78vw auto;
-
-  background-position: -121vw -219.9vh;
+    background-image: linear-gradient( rgba(124, 124, 141, 0.5), rgba(124, 124, 141, 1) ), url(images/hugol_hell_2.jpg);
+    background-size: 73vw auto;
+    background-position: -121vw -219.9vh;
 }
 
 .Profile_Image {

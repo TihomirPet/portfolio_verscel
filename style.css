@@ -16,11 +16,11 @@ body {
 }
 
 :root {
-  --black: #0c0c0c;
-  background-color: #926335;
+  /* --black: #0c0c0c; */
+  /* background-color: #926335; */
 }
 .Viewport_Border {
-  border-bottom: 2px solid #fffaf3;
+  border-bottom: 1px solid #fffaf3;
 }
 .Viewport_Form {
   background-image: url(images/hugol_hell_2.jpg);
@@ -247,23 +247,21 @@ body {
 }
 
 .Profile_Image {
-  background-image: url(images/Portrait_Pu.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  height: 50vh;
-
-  opacity: 0.8;
+     background-image: linear-gradient( rgba(168, 124, 68, 0.1), rgba(168, 124, 68, 0.01), rgba(124, 124, 141, 1) ), url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
 }
 .Profile {
   position: relative;
-  background-color: rgb(168, 124, 68);
-  background: linear-gradient(
+  /* background-color: rgb(168, 124, 68,0.1); */
+  /* background: linear-gradient(
     0deg,
     rgba(124, 124, 141, 1),
     rgba(168, 124, 68, 0.8),
     rgba(168, 124, 68, 1)
-  );
+  ); */
 overflow: hidden;
   height: 109.6vh;
   width: 100vw;
@@ -897,12 +895,12 @@ background-position: -121vw -199.9vh;
   .Profile {
     position: relative;
   
-    background: linear-gradient(
+    /* background: linear-gradient(
       0deg,
       rgba(124, 124, 141, 1),
       rgba(168, 124, 68, 0.8),
-      rgba(168, 124, 68, 1)
-    );
+      rgba(168, 124, 68, 1) */
+    /* ); */
 
     height: 100vh;
   }

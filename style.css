@@ -30,13 +30,32 @@ body {
   height: 100vh;
 }
 .Viewport_Text {
-  background-color: #fdac0f;
-  background-color: rgb(51, 35, 87);
-  /* background-color: #35355c; */
-  /* background-color: #02053B; */
+  /* background-color: rgb(253, 172, 15); */
+  /* background-color: rgb(51, 35, 87); */
+  background-image: linear-gradient(
+      180deg,
+      rgba(5, 167, 225, 0.9) 10%,
+      rgba(51, 35, 87, 0.6) 59%,
+      rgba(51, 35, 87, 0.9) 80%
+    ),
+    url(images/copper_D.jpg);
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(51, 35, 87, 1) 20%,
+      rgba(51, 35, 87, 0.7) 59%,
+      rgba(50, 14, 62, 0.9) 80%
+    ),
+    url(images/copper_Q.jpg);
+
+
+  /* background-image: url(images/architecture.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   opacity: 1;
 }
-
+/* 
 .Viewport_Image {
   background-image: url(images/jason.png);
   background-size: cover;
@@ -44,7 +63,7 @@ body {
   background-repeat: no-repeat;
   height: 60vh;
   opacity: 0.7;
-}
+} */
 .Viewport_Code {
   background-image: url(images/barcode.png);
   background-size: cover;
@@ -202,8 +221,12 @@ body {
 
   background-color: #060014;
   background-color: #7c7152;
-  background-color: #a87c44;
-  background-color: #7c7c8d;
+  background-color: rgba(5, 167, 225);
+  background-color: rgb(165, 165, 4);
+  background-color: rgb(194, 182, 112);
+  /* background-color: rgb(187, 192, 111); */
+
+  /* background-color: #7c7c8d; */
 }
 .name {
   height: 100vh;
@@ -241,17 +264,26 @@ body {
   /* opacity: 0.56; */
 }
 .Profile_Hugo {
-    background-image: linear-gradient( rgba(124, 124, 141, 0.5), rgba(124, 124, 141, 1) ), url(images/hugol_hell_2.jpg);
-    background-size: 73vw auto;
-    background-position: -121vw -219.9vh;
+  background-image: linear-gradient(
+      rgba(124, 124, 141, 0.5),
+      rgba(194, 182, 112)
+    ),
+    url(images/hugol_hell_2.jpg);
+  background-size: 73vw auto;
+  background-position: -121vw -219.9vh;
 }
 
 .Profile_Image {
-     background-image: linear-gradient( rgba(168, 124, 68, 0.1), rgba(168, 124, 68, 0.01), rgba(124, 124, 141, 1) ), url(images/Portrait_Hugo_O.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 110vh;
+  background-image: linear-gradient(
+      rgba(168, 124, 68, 0.1),
+      rgba(168, 124, 68, 0.01),
+      rgba(194, 182, 112, 1)
+    ),
+    url(images/Portrait_Hugo_O.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
 }
 .Profile {
   position: relative;
@@ -262,7 +294,7 @@ body {
     rgba(168, 124, 68, 0.8),
     rgba(168, 124, 68, 1)
   ); */
-overflow: hidden;
+  overflow: hidden;
   height: 109.6vh;
   width: 100vw;
 }
@@ -277,11 +309,18 @@ overflow: hidden;
 }
 .Profile_Text {
   background-image: 
-    /* top, transparent red */ linear-gradient(
-      rgba(51, 35, 87, 0.99),
-      rgba(51, 35, 87, 0.9)
+    /* top, transparent red */
+     /* linear-gradient(
+      rgba(51, 35, 87, 1),
+      rgba(51, 35, 87, 0.6)
+    ), */ linear-gradient(
+      180deg,
+      rgba(50, 14, 62, 0.9) 2%,
+      rgba(51, 35, 87, 1) 30%,
+      rgba(51, 35, 87, 0.7) 80%,
+      rgba(51, 35, 87, 1) 100%
     ),
-    /* your image */ url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
+    /* your image */ url(images/copper.jpg);
 
   background-position: center;
   background-size: cover;
@@ -302,43 +341,45 @@ overflow: hidden;
 
 .Projekt_Title {
   background-color: #332357;
-
 }
 .Projekt_Process {
   height: 15vh;
-  background-color: rgba(124, 124, 141, 1);
+  background-color: rgba(194, 182, 112, 1);
 }
 .Contact {
-  width: 100vw;
   height: 100vh !important;
+  width: 100vw;
 
   background-image: linear-gradient(
-      rgba(124, 124, 141, 1),
-      rgba(124, 124, 141, 0.6),
-      rgba(124, 124, 141, 0.4)
+      180deg,
+      rgba(194, 182, 112, 1) 5%,
+      rgba(194, 182, 112, 0.9) 15%,
+      rgba(51, 35, 87, 0.7) 60%,
+      rgba(50, 14, 62, 0.9) 80%
     ),
-    url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
-  background-size: 78vw auto;
-  color:#2F1D56;
+    url(images/copper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #e7d3bb;
 }
 .contact_image {
   height: 53vh;
   /* background-color: rgb(248, 248, 248, 0.1); */
-  background-image: url(images/back_contact.png);
-    background-position: center;
+  /* background-image: url(images/back_contact.png); */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  
 }
 .contact_image a {
-  color:#2F1D56;
+  color: #e7d3bb;
 }
 .contact_image a:hover {
-    font-weight: 400;
-  color: #803b03;
+  font-weight: 400;
+  color:  rgba(5, 167, 225, 0.9);
 }
 
 .Line {
@@ -417,10 +458,11 @@ overflow: hidden;
 }
 
 .FontSize1-6 {
-  font-size: 1.9vw;
+  font-size: 1.5vw;
   color: #615a4b;
   color: #d4d5d9;
   color: #e7d3bb;
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   z-index: 5;
@@ -436,6 +478,7 @@ overflow: hidden;
 }
 .FontSize1-7 {
   font-size: 1.5vw;
+
   color: #e7d3bb;
 
   font-family: 'Montserrat', sans-serif;
@@ -445,9 +488,11 @@ overflow: hidden;
 .FontSize1-7:hover {
   font-size: 1.5vw;
   color: #fb7304;
+  color: #332357;
+  color: rgba(5, 167, 225, 0.9);
 
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   z-index: 5;
 }
 .FontSize1-2 {
@@ -566,8 +611,6 @@ overflow: hidden;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .box {
   height: auto;
@@ -734,6 +777,29 @@ a {
     background-size: cover;
   }
 }
+
+/* =================================================================================( 1440px)====================================================================================================================== */
+@media (max-width: 1441px) {
+  .Viewport_Form {
+    background-image: url(images/hugol_hell_2.jpg);
+    background-size: 78vw auto;
+    background-position: -3vw -27vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .Profile_Image {
+     background-image: linear-gradient(
+      rgba(168, 124, 68, 0.1),
+      rgba(168, 124, 68, 0.01),
+      rgba(194, 182, 112, 1)
+    ),
+      url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+  }
+}
 /* =================================================================================(1200px)====================================================================================================================== */
 @media (max-width: 1200px) {
   .Viewport_Form {
@@ -742,23 +808,21 @@ a {
     background-position: -3vw -27vh;
     background-repeat: no-repeat;
     height: 100vh;
-}
-.Profile_Image {
-    background-image: url(images/Portrait_Pu.png);
-    background-size: contain;
-    background-position: right;
+  }
+  .Profile_Image {
+    background-image: linear-gradient(
+      rgba(168, 124, 68, 0.1),
+      rgba(168, 124, 68, 0.01),
+      rgba(194, 182, 112, 1)
+    ),
+      url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 44vh;
-    opacity: 0.8;
-}
-.Profile_Image_Down {
-    background-image: url(images/Portrait_Pu_D.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 44vh;
-    opacity: 0.8;
-}
+
+    height: 110vh;
+  }
+
   .Viewport_Contact {
     background-image: url(images/Contact.jpg);
     height: 65vh;
@@ -789,36 +853,9 @@ a {
     color: #928975;
   }
 }
-/* =================================================================================( 1440px)====================================================================================================================== */
-@media (max-width: 1441px) {  
-  .Viewport_Form {
-    background-image: url(images/hugol_hell_2.jpg);
-    background-size: 78vw auto;
-    background-position: -3vw -27vh;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-  .Profile_Image {
-    background-image: url(images/Portrait_Pu.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 42vh;
-    opacity: 0.8;
-    
-}
-.Profile_Image_Down {
-    background-image: url(images/Portrait_Pu_D.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 42vh;
-    opacity: 0.8;
-}
-}
+
 /* =================================================================================( 992px)====================================================================================================================== */
 @media (max-width: 992px) {
-
   .Error {
     background-image: url(images/Error.png);
     height: 29vh;
@@ -851,50 +888,48 @@ a {
 }
 /* =================================================================================( 768px)====================================================================================================================== */
 @media (max-width: 768px) {
-
-
   .Profile_Hugo {
     background-image: linear-gradient(
-        rgba(124, 124, 141, 0.5),
-        rgba(124, 124, 141, 1)
-      ),
+      rgba(124, 124, 141, 0.5),
+      rgba(194, 182, 112)
+    ),
       url(images/hugol_hell_2.jpg);
     background-size: 78vw auto;
 
-background-position: -121vw -199.9vh;
+    background-position: -121vw -199.9vh;
   }
-  .Profile_Text {
-    background-image: linear-gradient(
-        rgba(51, 35, 87, 0.99),
-        rgba(51, 35, 87, 0.9)
-      ),
-      url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
+ .Profile_Text {
+  background-image: 
+   linear-gradient(
+      180deg,
+      rgba(50, 14, 62, 0.9) 2%,
+      rgba(51, 35, 87, 1) 30%,
+      rgba(51, 35, 87, 0.7) 80%,
+      rgba(51, 35, 87, 1) 100%
+    ),
+    url(images/copper.jpg);
 
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+  .Profile_Image {
+  background-image: linear-gradient(
+      rgba(168, 124, 68, 0.1),
+      rgba(168, 124, 68, 0.01),
+      rgba(194, 182, 112, 1)
+    ),
+      url(images/Portrait_Hugo_O.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     height: 100vh;
   }
-  .Profile_Image {
-    background-image: url(images/Portrait_Pu.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 40vh;
 
-    opacity: 0.8;
-  }
-  .Profile_Image_Down {
-    background-image: url(images/Portrait_Pu_D.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 40vh;
-
-    opacity: 0.8;
-  }
   .Profile {
     position: relative;
-  
+
     /* background: linear-gradient(
       0deg,
       rgba(124, 124, 141, 1),
@@ -906,26 +941,21 @@ background-position: -121vw -199.9vh;
   }
   .contact_image {
     height: 73vh;
-   
-    background-image: url(images/back_contact.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+  
     font-size: 1.5vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}
+  }
 
-.contact_image a {
-  color: #332357;
-}
-.contact_image h2 {
-
-  font-size: 2vw;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-}
-
+  .contact_image a {
+    color: #332357;
+  }
+  .contact_image h2 {
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
 
   .box2 {
     width: 58% !important;
@@ -961,46 +991,42 @@ background-position: -121vw -199.9vh;
 /* =================================================================================( 576px)====================================================================================================================== */
 @media (max-width: 576px) {
   .Projekt_Title {
-    background-color:   rgba(124, 124, 141, 1) ;
-}
+    background-color: rgba(194, 182, 112, 1);
+  }
   .Profile_Text {
-    background-image: linear-gradient( rgba(51, 35, 87, 0.99), rgba(51, 35, 87, 0.9) ), url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
+    background-image: linear-gradient(
+        rgba(51, 35, 87, 0.99),
+        rgba(51, 35, 87, 0.9)
+      ),
+      url(images/josep-martins-l3-erg8nPRU-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    height: 52vh;
-}
+    height: 70vh;
+  }
   .Profile_Image {
-    background-image: url(images/Portrait_Pu_m.png);
-    background-size: contain;
-    background-position: center;
+    background-image: url(images/Portrait_Hugo_Mobile.jpg);
+    background-size: cover;
+    background-position: -3vw -29vh;
     background-repeat: no-repeat;
-    height: 30vh;
-    opacity: 0.8;
-}
-.Profile_Image_Down {
-    background-image: url(images/Portrait_Pu_m_D.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 30vh;
-    opacity: 0.8;
-}
+
+    height: 50vh;
+  }
+
   .Profile {
-  
     height: auto;
   }
-.Viewport_Code {
+  .Viewport_Code {
     background-image: url(images/barcode.png);
     background-size: cover;
-  background-position: 0vw 2vh;
+    background-position: 0vw 2vh;
     background-repeat: no-repeat;
     height: 5vh;
     width: 22vw;
     opacity: 0.5;
-}
-.Viewport_Border {
+  }
+  .Viewport_Border {
     border-bottom: 1px solid #fffaf3;
-}
+  }
 
   .Viewport_Form {
     background-image: url(images/hugol_hell_2.jpg);
@@ -1008,7 +1034,7 @@ background-position: -121vw -199.9vh;
     background-position: -3vw -29vh;
     background-repeat: no-repeat;
     height: 54vh;
-}
+  }
   .FontSize1 {
     font-size: 1vw;
     color: #fdfdfd;
@@ -1040,6 +1066,10 @@ background-position: -121vw -199.9vh;
     font-weight: 600;
     letter-spacing: 0.8vw;
   }
+  .Viewport_Text {
+
+  height: 50vh;
+}
   .Vieport_Workflow {
     background-image: url(images/Car.jpg);
     height: 15vh;
@@ -1079,23 +1109,21 @@ background-position: -121vw -199.9vh;
     font-weight: 500;
     letter-spacing: 0.5vw;
   }
-  
- 
-  .Viewport_Image {
+
+  /* .Viewport_Image {
     background-image: url(images/jason.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 25vh;
     opacity: 0.7;
-}
+  } */
   .wrapper {
     width: 100vw;
   }
   .box2 {
     width: 100% !important;
   }
-
 
   .Contact {
     width: auto;
@@ -1104,18 +1132,17 @@ background-position: -121vw -199.9vh;
     background-color: #060014;
   }
   .contact_image {
-  height: 30vh;
-  background-color: rgb(248, 248, 248, 0);
-  font-size: 3.5vw;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
+    height: 30vh;
+    background-color: rgb(248, 248, 248, 0);
+    font-size: 3.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
   .contact_image h2 {
-
-  font-size: 4.5vw;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
+    font-size: 4.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
 
   .Error {
     background-image: url(images/Error.png);
@@ -1198,20 +1225,20 @@ background-position: -121vw -199.9vh;
     opacity: 0.9;
     z-index: 4;
   }
-.FontSize1-6 {
+  .FontSize1-6 {
     font-size: 5.4vw;
     color: #e7d3bb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     z-index: 5;
-}
-.FontSize1-7 {
+  }
+  .FontSize1-7 {
     font-size: 4.5vw;
     color: #e7d3bb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     z-index: 5;
-}
+  }
 
   .FontSizeWorkflowUptodate {
     font-size: 4.2vw;
@@ -1222,5 +1249,4 @@ background-position: -121vw -199.9vh;
     font-weight: 700;
     letter-spacing: 0.4vw;
   }
-  
 }

@@ -165,23 +165,23 @@ ScrollTrigger.batch('.textProfile', {
   end: 'bottom end',
   onEnter: (batch) =>
     gsap.to(batch, {
-      opacity: 0.8,
+      opacity: 1,
       y: 0,
-      backgroundSize: '100%',
+     
    
     }),
   onLeaveBack: (batch) =>
     gsap.to(batch, {
       opacity: 0.5,
       y: 0,
-      backgroundSize: '100%',
+   
 
     
     }),
 });
 
 ScrollTrigger.addEventListener('refreshInit', () =>
-  gsap.set('.textProfile', { y: 0, backgroundSize: '100%' ,duration:0.5})
+  gsap.set('.textProfile', { y: 0 ,duration:0.5})
 );
 
 // gsap.defaults({ ease: 'power3' });

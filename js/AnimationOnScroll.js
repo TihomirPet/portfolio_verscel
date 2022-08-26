@@ -158,20 +158,30 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.defaults({ ease: 'power3' });
 
-gsap.set('.test', { y: 100 });
+gsap.set('.textProfile', { y: 0 });
 
-ScrollTrigger.batch('.test', {
-
-  start: 'top 200px',
+ScrollTrigger.batch('.textProfile', {
+  start: 'top 300px',
   end: 'bottom end',
   onEnter: (batch) =>
-    gsap.to(batch, { opacity: 1, y: 0, backgroundSize: '100%', stagger: 0.15 }),
+    gsap.to(batch, {
+      opacity: 0.8,
+      y: 0,
+      backgroundSize: '100%',
+   
+    }),
   onLeaveBack: (batch) =>
-    gsap.to(batch, { opacity: 0, y: 10, backgroundSize: '0%', stagger: 0.15 }),
+    gsap.to(batch, {
+      opacity: 0.5,
+      y: 0,
+      backgroundSize: '100%',
+
+    
+    }),
 });
 
 ScrollTrigger.addEventListener('refreshInit', () =>
-  gsap.set('.test', { y: 0, backgroundSize: '0%' })
+  gsap.set('.textProfile', { y: 0, backgroundSize: '100%' ,duration:0.5})
 );
 
 // gsap.defaults({ ease: 'power3' });

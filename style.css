@@ -32,38 +32,32 @@ body {
   height: 100vh;
 }
 .Viewport_Text {
-  /* background-color: rgb(253, 172, 15); */
-  /* background-color: rgb(51, 35, 87); */
-  background-image: linear-gradient(
-      180deg,
-      rgba(5, 167, 225, 0.9) 10%,
-      rgba(51, 35, 87, 0.6) 59%,
-      rgba(51, 35, 87, 0.9) 80%
-    ),
-    url(images/copper_D.jpg);
+
 
   background-image: linear-gradient(
       180deg,
       rgba(110, 99, 77, 1) 10%,
       rgba(87, 63, 35, 0.6) 59%,
       rgba(20, 14, 35, 0.9) 80%
+    
+
     ),
     url(images/JuJYP.jpg);
 
-  /* background-image: url(images/architecture.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 1;
+ 
 }
 .Viewport_HolderText {
-  background-image: linear-gradient(
+  /* background-image: 
+  linear-gradient(
       180deg,
       rgba(110, 99, 77, 1) 10%,
       rgba(87, 63, 35, 0.6) 59%,
       rgba(20, 14, 35, 0.9) 80%
     ),
-    url(images/JuJYP_I.jpg);
+    url(images/JuJYP_I.jpg); */
 
   background-size: cover;
   background-position: center;
@@ -105,22 +99,10 @@ body {
   height: 100vh;
 }
 
-.containerA {
-  width: 600%;
-  height: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  border: #0d0225 solid 2px;
-}
-.panel {
-  width: 100vw;
-  height: 100vh;
-  color: #070500;
-  border: solid red 1px;
-}
+
 
 .Viewport {
-  height: 100vh !important;
+  height: 100vh ;
 
   background-image: url(images/NgLF.jpg);
   background-size: cover;
@@ -407,6 +389,7 @@ body {
 .contact_image a:hover {
   font-weight: 400;
   color: rgba(5, 167, 225, 0.9);
+      color: rgb(251 204 136);
 }
 
 .Line {
@@ -479,6 +462,7 @@ body {
   font-size: 1.5vw;
 
   color: #e7d3bb;
+      color: #9b8d7c;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   z-index: 5;
@@ -489,6 +473,7 @@ body {
   color: #615a4b;
   color: #d4d5d9;
   color: #e7d3bb;
+  color: #9b8d7c;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -517,6 +502,7 @@ body {
   color: #fb7304;
   color: #332357;
   color: rgba(5, 167, 225, 0.9);
+      color: rgb(251 204 136);
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -1029,17 +1015,7 @@ a {
   .Viewport {
     height: 100vh ;
 
-    background-image: linear-gradient(
-        rgb(16, 11, 28) 1%,
-        rgba(51, 35, 87, 1) 10%,
-        rgba(168, 124, 68, 0),
-        rgb(33, 23, 56, 1) 68%,
-        rgb(23, 16, 38) 95%
-      ),
-      url(images/carlhauser.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  
 
 
     position: relative;
@@ -1256,6 +1232,7 @@ a {
   .FontSize1-6 {
     font-size: 6.4vw;
     color: #e7d3bb;
+        color: #9b8d7c;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     z-index: 5;

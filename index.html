@@ -44,30 +44,42 @@
       <!-- viewport  start -->
 
       <div class="container-fuid Viewport animateViewport">
-        <div
-          class="container-fluid Viewport_Holder mt-0 mt-lg-5 layerHogo"
-    
-        >
-          <div class="row d-flex justify-content-start ps-5 mt-5 Animate">
+        <div class="container-fluid Viewport_Holder mt-0 mt-lg-5 layerHogo">
+          <div
+            class="row d-flex justify-content-start ps-4 ps-md-5 mt-5 Animate"
+          >
             <div class="col-6 col-lg-6 Viewport_Code Animate"></div>
             <div class="col-5 col-lg-3 Viewport_Border ms-2 Animate"></div>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-md-6 Viewport_Form d-flex align-items-end TestAnimate parallaxScroll layerHogo">
+
+        <!-- =========================================================================== Holder ===================================================== -->
+
+        <div class="container-fluid Viewport_HolderSecond d-none d-md-block">
+          <div class="row">
+            <div class="col-6 col-lg-6 Viewport_HolderForm"></div>
+            <div class="col-6 Viewport_HolderText"></div>
+          </div>
+        </div>
+        <!-- ========================================================================= Holder End ======================================================= -->
+
+        <div class="row">
+          <div
+            class="col-md-6 Viewport_Form d-flex align-items-end TestAnimate parallaxScroll layerHogo"
+          >
             <div class="container">
               <div class="row pe-lg-5 mb-5">
-                <div class="col-12 d-flex justify-content-md-end mb-5 flex-column">
+                <div
+                  class="col-12 d-flex justify-content-md-end mb-5 flex-column"
+                >
                   <h2
-                    class="text-uppercase FontSize1-6 LetterSpase08 text-md-end  Animate parallaxScroll "
+                    class="text-uppercase FontSize1-6 LetterSpase08 text-md-end Animate parallaxScroll"
                   >
-                    Tihomir 
-                  
+                    Tihomir
                   </h2>
                   <h2
-                    class="text-uppercase FontSize1-6 LetterSpase08 text-md-end  mb-5 Animate parallaxScroll"
+                    class="text-uppercase FontSize1-6 LetterSpase08 text-md-end mb-5 Animate parallaxScroll"
                   >
-                   
                     Petrov
                   </h2>
                 </div>
@@ -76,7 +88,7 @@
           </div>
           <div class="col-md-6 Viewport_Text d-flex TestAnimate layerMetall">
             <div
-              class="container-fluid pe-0 mt-md-5 mt-md-0 d-flex align-items-center justify-content-center "
+              class="container-fluid pe-0 mt-md-5 mt-md-0 d-flex align-items-center justify-content-center"
             >
               <div
                 class="row d-flex align-items-center justify-content-center w-100"
@@ -84,7 +96,7 @@
                 <div
                   class="col-12 col-md-5 align-self-center mt-4 mt-md-0 ps-4 ps-md-0 ps-lg-5"
                 >
-                  <ul class="list-unstyled ps-0 ps-md-5 "     id="parralaxScroll">
+                  <ul class="list-unstyled ps-0 ps-md-5" id="parralaxScroll">
                     <li>
                       <a
                         class="FontSize1-7 LetterSpase03 text-uppercase parallaxScroll TestAnimate"
@@ -101,7 +113,7 @@
                     </li>
                     <li>
                       <a
-                        class="FontSize1-7 LetterSpase03 text-uppercase font-weight-bold parallaxScroll  TestAnimate"
+                        class="FontSize1-7 LetterSpase03 text-uppercase font-weight-bold parallaxScroll TestAnimate"
                         href="#05"
                         ><p class="">Kontakt</p>
                       </a>
@@ -117,29 +129,21 @@
 
       <div
         id="02"
-        class="Profile container-fluid d-flex align-items-center justify-content-center px-0 "
+        class="Profile container-fluid d-flex align-items-center justify-content-center px-0"
       >
-        <div class="row ">
-          <!-- <div
-            class="col-md-3 Profile_Form d-flex justify-content-start mt-3   ps-5"
-          >
-          
-               <h2 class="text-uppercase FontSize1-6 LetterSpase04  pb-5 d-block d-md-none">
-              Profil
-            </h2>
-            
-          </div> -->
-          <div class="col-md-6 BackMobileViewPort ">
-
-            
-          </div>
+        <div class="container-fluid Profile_Holder d-flex">
+          <div class="col-6"></div>
+          <div class="col-6 Profile_HolderText"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 BackMobileViewPort"></div>
           <div
-            class="col-md-4 col-lg-6 d-flex align-items-start justify-content-center p-5 p-md-0 ps-md-3 ps-lg-4 flex-column Profile_Text textProfile "
+            class="col-md-6 col-lg-6 d-flex align-items-start justify-content-center p-5 p-md-0 ps-md-3 ps-lg-4 flex-column Profile_Text textProfile"
           >
             <h2 class="text-uppercase FontSize1-6 LetterSpase04 pb-lg-5">
               Profil
             </h2>
-            <p class="FontSize1 TextProfil text-start ">
+            <p class="FontSize1 TextProfil text-start">
               Mein Name ist Tihomir Petrov, ich bin 1979 in Bulgarien geboren
               .<br />
               Ich habe in meiner Heimat ein Kunstgymnasium mit Hauptfach
@@ -512,31 +516,51 @@
       //     ease: 'circ.out',
       //     stagger: 0.5,
       //   });
-     
+
       // });
-  gsap.fromTo('.animateViewport', {opacity: 0,z:'-300'}, {opacity: 1, duration: 2,stagger: 0.8,ease: "circ.out",z:'0'});
+      gsap.fromTo(
+        '.animateViewport',
+        { opacity: 0, z: '-300' },
+        { opacity: 1, duration: 2, stagger: 0.8, ease: 'circ.out', z: '0' }
+      );
 
+      tl.fromTo(
+        '.layerMetall',
+        { y: 0, opacity: 1 },
+        { z: '-300', ease: 'circ.out', opacity: 0.5 },
+        0
+      );
+      tl.fromTo(
+        '.layerHogo',
+        { y: 0, opacity: 1 },
+        { z: -300, ease: 'circ.out', opacity: 0.3 },
+        0
+      );
 
-  tl.fromTo('.layerMetall', {y:0,opacity:1},{z:"-300",ease: "circ.out",opacity:0.5}, 0)
-  tl.fromTo('.layerHogo', {y:0,opacity:1},{z:-300,ease: "circ.out",opacity:0.3}, 0)
+      tl.fromTo(
+        '.profileImage',
+        { y: 0, opacity: 0 },
+        { z: -300, ease: 'circ.out', opacity: 0.8 },
+        0
+      );
 
-tl.fromTo('.profileImage', {y:0,opacity:0},{z:-300,ease: "circ.out",opacity:0.8}, 0)
-
-
-
-
-  //  tl.to('.Animate', {
-  //         duration: 0.1,
-  //         opacity: 0,
-  //         z: '-=300',
-  //         ease: 'circ.out',
-  //         stagger: 0.8,
-  //       });
+      //  tl.to('.Animate', {
+      //         duration: 0.1,
+      //         opacity: 0,
+      //         z: '-=300',
+      //         ease: 'circ.out',
+      //         stagger: 0.8,
+      //       });
       // tl.from(".TestAnimate", {opacity:0,duration:0.8,Z:500,stagger:0.5} ,"-= 0.1");
       // tl.from('.TestAnimate', { opacity: 0, duration: 0.9, Z: 5000 });
 
-    
-      gsap.from('.Animate', { opacity: 0, duration: 1.9, y:'500',  ease: "circ.out", stagger: 0.8 } );
+      gsap.from('.Animate', {
+        opacity: 0,
+        duration: 1.9,
+        y: '500',
+        ease: 'circ.out',
+        stagger: 0.8,
+      });
 
       // gsap.from('.Animate', {
       //   duration: 0.9,
@@ -546,7 +570,11 @@ tl.fromTo('.profileImage', {y:0,opacity:0},{z:-300,ease: "circ.out",opacity:0.8}
       //   ease: 'circ.out',
       //   stagger: 0.8,
       // });
-       gsap.fromTo('.TestAnimate',{opacity: 0,y:'-300'}, {opacity: 1, duration: 1,stagger: 0.8,ease: "circ.out",y:'0'})
+      gsap.fromTo(
+        '.TestAnimate',
+        { opacity: 0, y: '-300' },
+        { opacity: 1, duration: 1, stagger: 0.8, ease: 'circ.out', y: '0' }
+      );
     </script>
   </body>
 </html>

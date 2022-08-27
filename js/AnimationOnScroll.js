@@ -161,7 +161,7 @@ gsap.defaults({ ease: 'power3' });
 gsap.set('.textProfile', { y: 0 });
 
 ScrollTrigger.batch('.textProfile', {
-  start: 'top 300px',
+  start: 'top 300',
   end: 'bottom end',
   onEnter: (batch) =>
     gsap.to(batch, {

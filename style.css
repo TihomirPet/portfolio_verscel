@@ -23,13 +23,13 @@ body {
   border-bottom: 1px solid #fffaf3;
 }
 .Viewport_Form {
-    background-image: url(images/carlhauser.jpg);
-    /* background-size: 77vw auto;
+  background-image: url(images/carlhauser.jpg);
+  /* background-size: 77vw auto;
     background-position: -10vw -12vh; */
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .Viewport_Text {
   /* background-color: rgb(253, 172, 15); */
@@ -55,7 +55,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
-  
+}
+.Viewport_HolderText {
+  background-image: linear-gradient(
+      180deg,
+      rgba(110, 99, 77, 1) 10%,
+      rgba(87, 63, 35, 0.6) 59%,
+      rgba(20, 14, 35, 0.9) 80%
+    ),
+    url(images/JuJYP_I.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 /* 
 .Viewport_Image {
@@ -79,6 +92,18 @@ body {
   position: absolute;
   z-index: 20;
 }
+.Viewport_HolderSecond {
+  position: absolute;
+}
+.Viewport_HolderForm {
+  background-image: url(images/carlhauser_i.jpg);
+  /* background-size: 77vw auto;
+    background-position: -10vw -12vh; */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
 .containerA {
   width: 600%;
@@ -96,10 +121,8 @@ body {
 
 .Viewport {
   height: 100vh !important;
-  
-  background-image: 
-  
-    url(images/NgLF.jpg);
+
+  background-image: url(images/NgLF.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -208,11 +231,7 @@ body {
   color: #001c1a;
 }
 .Vieport_Shape {
-  /* background-image: url(images/ShapeBlue.jpg); */
   height: 23vh;
-  /* background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .TextProfil {
@@ -228,7 +247,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 1px solid red; */
+
   z-index: 5;
 }
 .wrapper {
@@ -239,69 +258,33 @@ body {
   width: 100vw;
   height: auto;
 
-  background-color: #060014;
-  background-color: #7c7152;
-  background-color: rgba(5, 167, 225);
-  background-color: rgb(165, 165, 4);
-  background-color: rgb(194, 182, 112);
-  /* background-color: rgb(187, 192, 111); */
-
-  /* background-color: #7c7c8d; */
+  background-color: rgb(243, 247, 222);
 }
 .name {
   height: 100vh;
 }
 .BackMobileViewPort {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
-  /* background-image: url(images/texturH.jpg);
-  background-image: url(images/crumpled-paperjpg.jpg); */
-
   background-image: linear-gradient(
       rgba(194, 182, 112, 0),
       rgba(168, 124, 68, 0),
-      rgba(194, 182, 112, 1)
-    )
-    /* ,url(images/hugol_fontParallax.png), */
-   , url(images/parallax_PortraitUp.png),
-    url(images/parallax_PortraitDown.png),
-   
- 
-    url(images/brush_parallax.png)
-    ;
- 
+      rgb(243, 247, 222)
+    ),
+    url(images/parallax_PortraitUp.png), url(images/parallax_PortraitDown.png),
+    url(images/brush_parallax.png);
 
-
-
-  /* background-image:  url(images/hugol_fontParallax.png),url(images/hugol_backParallax.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-position: 200% 50%;
   background-size: contain;
-background-color: #f7f5db;
-  /* background-size: cover; */
-  /* width:auto ; */
+  background-color: #f7f5db;
+
   height: 110vh;
-
-
+  z-index: 1;
 }
 #bg-01 {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.parallax_content {
-  /* background-image: url(images/chalk_33.jpg); */
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  /* width: 100%; */
-  /* height: 100vh; */
-  z-index: -1;
 
-  background-color: #04000e;
-  background-color: #926335;
-  /* opacity: 0.56; */
-}
 .Profile_Hugo {
   background-image: linear-gradient(
       rgba(124, 124, 141, 0.5),
@@ -326,53 +309,43 @@ background-color: #f7f5db;
 }
 .Profile {
   position: relative;
-   background: rgb(243, 194, 250);
-  background: radial-gradient(
-    circle,
-    rgba(243, 194, 250, 1) 0%,
-    rgba(254, 1, 144, 1) 19%,
-    rgba(158, 52, 144, 1) 34%,
-    rgba(69, 49, 121, 1) 52%,
-    rgba(0, 0, 0, 1) 88%
-  );
-
-    /* background-image: 
-  
-    url(images/NgLF.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-
-
+ 
 
   overflow: hidden;
   height: 109.6vh;
   width: 100vw;
 }
-.Profile_Image_Down {
-  background-image: url(images/Portrait_Pu_D.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  height: 50vh;
+.Profile_Holder {
+  position: absolute;
 
-  opacity: 0.8;
+  height: 109.6vh;
+  width: 100vw;
 }
+
 .Profile_Text {
   background-image: 
-    /* top, transparent red */
-     /* linear-gradient(
-      rgba(51, 35, 87, 1),
-      rgba(51, 35, 87, 0.6)
-    ), */  linear-gradient(
+  linear-gradient(
       180deg,
-        rgba(20, 14, 35, 1) 10%,
-   
-      rgba(87, 63, 35, 0.9) 40%,
-      rgba(110, 99, 77, 1) 70%,
-       rgba(194, 182, 112, 1)96%
+      rgba(20, 14, 35, 1) 15%,
+
+      rgba(37, 20, 2, 0.9) 50%,
+       rgb(243, 247, 222, 1) 99%
     ),
-    /* your image */ url(images/carlhauser.jpg);
+  url(images/carlhauser.jpg);
+
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+.Profile_HolderText {
+  background-image: linear-gradient(
+      180deg,
+      rgba(20, 14, 35, 1) 15%,
+
+      rgba(37, 20, 2, 0.9) 50%,
+     
+    ),
+    url(images/carlhauser_I.jpg);
 
   background-position: center;
   background-size: cover;
@@ -396,7 +369,8 @@ background-color: #f7f5db;
 }
 .Projekt_Process {
   height: 15vh;
-  background-color: rgba(194, 182, 112, 1);
+  /* background-color: rgba(194, 182, 112, 1); */
+  background-color: rgb(243, 247, 222);
 }
 .Contact {
   height: 100vh !important;
@@ -404,16 +378,12 @@ background-color: #f7f5db;
 
   background-image: linear-gradient(
       180deg,
-      rgba(194, 182, 112, 1) 5%,
-      rgba(194, 182, 112, 0.9) 15%,
+      rgb(243, 247, 222, 1) 5%,
+      rgb(243, 247, 222, 0.9) 15%,
       rgba(51, 35, 87, 0.7) 60%,
-      rgba(7, 1, 22, 0.9) 90% 
+      rgba(7, 1, 22, 0.9) 90%
     ),
     url(images/JuJYP.jpg);
-
-/* rgba(110, 99, 77, 1) 10%, rgba(87, 63, 35, 0.6) 59%, rgba(20, 14, 35, 0.9) 80% */
-
-
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -838,9 +808,6 @@ a {
 /* =================================================================================( 1440px)====================================================================================================================== */
 @media (max-width: 1441px) {
   .Viewport_Form {
-  
-   
-
   }
   .Profile_Image {
     background-image: linear-gradient(
@@ -858,8 +825,6 @@ a {
 /* =================================================================================(1200px)====================================================================================================================== */
 @media (max-width: 1200px) {
   .Viewport_Form {
-  
- 
     height: 100vh;
   }
   .Profile_Image {
@@ -952,8 +917,6 @@ a {
     background-position: -121vw -199.9vh;
   }
   .Profile_Text {
-
-
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -972,29 +935,16 @@ a {
     height: 100vh;
   }
 
-
-.BackMobileViewPort {
-    background-image: linear-gradient( rgba(194, 182, 112, 0), rgba(168, 124, 68, 0), rgba(194, 182, 112, 1) ) /* ,url(images/hugol_fontParallax.png), */ , url(images/parallax_PortraitUp.png), url(images/parallax_PortraitDown.png), url(images/brush_parallax.png);
-    /* background-image: url(images/hugol_fontParallax.png),url(images/hugol_backParallax.jpg); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: 200% 50%;
-    background-size: contain;
-    background-color: #f7f5db;
-    /* background-size: cover; */
-    /* width: auto; */
-    height: 80vh;
-}
+  .BackMobileViewPort {
+ 
+  
+    height: 100vh;
+  }
 
   .Profile {
     position: relative;
 
-    /* background: linear-gradient(
-      0deg,
-      rgba(124, 124, 141, 1),
-      rgba(168, 124, 68, 0.8),
-      rgba(168, 124, 68, 1) */
-    /* ); */
+ 
 
     height: 100vh;
   }
@@ -1006,9 +956,7 @@ a {
     font-weight: 400;
   }
 
-  .contact_image a {
-    color: #332357;
-  }
+
   .contact_image h2 {
     font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
@@ -1048,16 +996,20 @@ a {
 }
 /* =================================================================================( 576px)====================================================================================================================== */
 @media (max-width: 576px) {
-  .TextProfil {
-  margin-top: 0px !important;
-  margin-bottom: 0px;
-  width: 100%;
-}
-  .Projekt_Title {
-    background-color: rgba(194, 182, 112, 1);
+  .BackMobileViewPort {
+ 
+  
+    height: 80vh;
   }
+  .TextProfil {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  /* .Projekt_Title {
+    background-color: rgba(194, 182, 112, 1);
+  } */
   .Profile_Text {
-
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -1075,27 +1027,24 @@ a {
     height: auto;
   }
   .Viewport {
-  height: 100vh !important;
-  
-  background-image: 
-  
-    url(images/carlhauser.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background: rgb(243, 194, 250);
-  background: radial-gradient(
-    circle,
-    rgba(243, 194, 250, 1) 0%,
-    rgba(254, 1, 144, 1) 19%,
-    rgba(158, 52, 144, 1) 34%,
-    rgba(69, 49, 121, 1) 52%,
-    rgba(0, 0, 0, 1) 88%
-  ); */
+    height: 100vh ;
 
-  position: relative;
-  width: 100vw;
-}
+    background-image: linear-gradient(
+        rgb(16, 11, 28) 1%,
+        rgba(51, 35, 87, 1) 10%,
+        rgba(168, 124, 68, 0),
+        rgb(33, 23, 56, 1) 68%,
+        rgb(23, 16, 38) 95%
+      ),
+      url(images/carlhauser.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    position: relative;
+    width: 100vw;
+  }
   .Viewport_Code {
     background-image: url(images/barcode.png);
     background-size: cover;
@@ -1110,10 +1059,10 @@ a {
   }
 
   .Viewport_Form {
-     background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     background-image: none;
-    height: 40vh;
+    height: 45vh;
   }
 
   .FontSize1 {
@@ -1148,9 +1097,6 @@ a {
     letter-spacing: 0.8vw;
   }
   .Viewport_Text {
-
-
-  
     background-image: none;
     /* background-image: url(images/architecture.jpg); */
     background-size: cover;
@@ -1199,14 +1145,7 @@ a {
     letter-spacing: 0.5vw;
   }
 
-  /* .Viewport_Image {
-    background-image: url(images/jason.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 25vh;
-    opacity: 0.7;
-  } */
+
   .wrapper {
     width: 100vw;
   }
@@ -1315,7 +1254,7 @@ a {
     z-index: 4;
   }
   .FontSize1-6 {
-    font-size: 5.4vw;
+    font-size: 6.4vw;
     color: #e7d3bb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
